@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749173077685,
+  "lastUpdate": 1749259460106,
   "repoUrl": "https://github.com/age-rs/rune",
   "entries": {
     "Benchmark": [
@@ -2971,6 +2971,118 @@ window.BENCHMARK_DATA = {
             "name": "external_functions",
             "value": 342,
             "range": "± 2",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "John-John Tedro",
+            "username": "udoprog",
+            "email": "udoprog@tedro.se"
+          },
+          "committer": {
+            "name": "John-John Tedro",
+            "username": "udoprog",
+            "email": "udoprog@tedro.se"
+          },
+          "id": "0f04e241fd574c2783f97c6ba954ff2308778159",
+          "message": "rune: Short circuit Ordering::IS_VARIANT",
+          "timestamp": "2025-06-06T13:12:10Z",
+          "url": "https://github.com/age-rs/rune/commit/0f04e241fd574c2783f97c6ba954ff2308778159"
+        },
+        "date": 1749259459560,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "primes/rhai",
+            "value": 11715209,
+            "range": "± 129322",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "primes/rune",
+            "value": 4132050,
+            "range": "± 307035",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "eval/rhai",
+            "value": 1738,
+            "range": "± 9",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "eval/rune",
+            "value": 1328,
+            "range": "± 30",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_1a",
+            "value": 163798,
+            "range": "± 854",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_1b",
+            "value": 923407,
+            "range": "± 14394",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_11a",
+            "value": 228342683,
+            "range": "± 2789916",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_19b",
+            "value": 209868954,
+            "range": "± 2312007",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_hello_world",
+            "value": 507943,
+            "range": "± 10535",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_hello_world2",
+            "value": 5422668,
+            "range": "± 216347",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_fib",
+            "value": 28911198,
+            "range": "± 152243",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_loopity",
+            "value": 4610705,
+            "range": "± 23119",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fib_15",
+            "value": 216427,
+            "range": "± 610",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fib_20",
+            "value": 2398213,
+            "range": "± 4708",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "external_functions",
+            "value": 342,
+            "range": "± 5",
             "unit": "ns/iter"
           }
         ]
