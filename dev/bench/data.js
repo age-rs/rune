@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749259460106,
+  "lastUpdate": 1749346377127,
   "repoUrl": "https://github.com/age-rs/rune",
   "entries": {
     "Benchmark": [
@@ -3083,6 +3083,118 @@ window.BENCHMARK_DATA = {
             "name": "external_functions",
             "value": 342,
             "range": "± 5",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "John-John Tedro",
+            "username": "udoprog",
+            "email": "udoprog@tedro.se"
+          },
+          "committer": {
+            "name": "John-John Tedro",
+            "username": "udoprog",
+            "email": "udoprog@tedro.se"
+          },
+          "id": "ab1878a50e7491a3972f89bb125b23b752d034d9",
+          "message": "rune: Make SourceLine and similar APIs public",
+          "timestamp": "2025-06-07T14:04:47Z",
+          "url": "https://github.com/age-rs/rune/commit/ab1878a50e7491a3972f89bb125b23b752d034d9"
+        },
+        "date": 1749346376148,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "primes/rhai",
+            "value": 11116133,
+            "range": "± 439849",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "primes/rune",
+            "value": 4297951,
+            "range": "± 153411",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "eval/rhai",
+            "value": 1623,
+            "range": "± 29",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "eval/rune",
+            "value": 1332,
+            "range": "± 14",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_1a",
+            "value": 184462,
+            "range": "± 1717",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_1b",
+            "value": 1143897,
+            "range": "± 8814",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_11a",
+            "value": 283998366,
+            "range": "± 1330919",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_19b",
+            "value": 232856100,
+            "range": "± 4840151",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_hello_world",
+            "value": 620217,
+            "range": "± 16747",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_hello_world2",
+            "value": 6612264,
+            "range": "± 27154",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_fib",
+            "value": 34679559,
+            "range": "± 145468",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_loopity",
+            "value": 5623146,
+            "range": "± 42109",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fib_15",
+            "value": 225314,
+            "range": "± 1077",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fib_20",
+            "value": 2382491,
+            "range": "± 8466",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "external_functions",
+            "value": 364,
+            "range": "± 0",
             "unit": "ns/iter"
           }
         ]
