@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749432606398,
+  "lastUpdate": 1750382780114,
   "repoUrl": "https://github.com/age-rs/rune",
   "entries": {
     "Benchmark": [
@@ -3307,6 +3307,118 @@ window.BENCHMARK_DATA = {
             "name": "external_functions",
             "value": 424,
             "range": "± 2",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "John-John Tedro",
+            "username": "udoprog",
+            "email": "udoprog@tedro.se"
+          },
+          "committer": {
+            "name": "John-John Tedro",
+            "username": "udoprog",
+            "email": "udoprog@tedro.se"
+          },
+          "id": "bf7c6a1b66dbe8989dc688e18dc051f856270cad",
+          "message": "rune: Handle diverging if statement (fixes #952)",
+          "timestamp": "2025-06-19T14:44:54Z",
+          "url": "https://github.com/age-rs/rune/commit/bf7c6a1b66dbe8989dc688e18dc051f856270cad"
+        },
+        "date": 1750382779670,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "primes/rhai",
+            "value": 12234873,
+            "range": "± 343067",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "primes/rune",
+            "value": 4314469,
+            "range": "± 294720",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "eval/rhai",
+            "value": 1698,
+            "range": "± 55",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "eval/rune",
+            "value": 1561,
+            "range": "± 17",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_1a",
+            "value": 176907,
+            "range": "± 888",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_1b",
+            "value": 1181635,
+            "range": "± 7583",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_11a",
+            "value": 272331288,
+            "range": "± 4831457",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_19b",
+            "value": 235935993,
+            "range": "± 708287",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_hello_world",
+            "value": 590924,
+            "range": "± 2039",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_hello_world2",
+            "value": 6171953,
+            "range": "± 25670",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_fib",
+            "value": 32611272,
+            "range": "± 199011",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_loopity",
+            "value": 5360752,
+            "range": "± 36187",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fib_15",
+            "value": 213610,
+            "range": "± 2514",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fib_20",
+            "value": 2396805,
+            "range": "± 12918",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "external_functions",
+            "value": 356,
+            "range": "± 1",
             "unit": "ns/iter"
           }
         ]
