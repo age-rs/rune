@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750382780114,
+  "lastUpdate": 1752456806267,
   "repoUrl": "https://github.com/age-rs/rune",
   "entries": {
     "Benchmark": [
@@ -3418,6 +3418,118 @@ window.BENCHMARK_DATA = {
           {
             "name": "external_functions",
             "value": 356,
+            "range": "± 1",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dan Stoza",
+            "username": "dstoza",
+            "email": "dstoza@gmail.com"
+          },
+          "committer": {
+            "name": "John-John Tedro",
+            "username": "udoprog",
+            "email": "udoprog@tedro.se"
+          },
+          "id": "a3d55e8cba3afe3e1025a3e56bed54b85d265ec7",
+          "message": "Fix clippy lints",
+          "timestamp": "2025-06-27T17:28:48Z",
+          "url": "https://github.com/age-rs/rune/commit/a3d55e8cba3afe3e1025a3e56bed54b85d265ec7"
+        },
+        "date": 1752456805312,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "primes/rhai",
+            "value": 11501685,
+            "range": "± 713317",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "primes/rune",
+            "value": 4468507,
+            "range": "± 29979",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "eval/rhai",
+            "value": 1612,
+            "range": "± 12",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "eval/rune",
+            "value": 1500,
+            "range": "± 11",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_1a",
+            "value": 176892,
+            "range": "± 2378",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_1b",
+            "value": 1204361,
+            "range": "± 21095",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_11a",
+            "value": 262466867,
+            "range": "± 790427",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_19b",
+            "value": 230069867,
+            "range": "± 467535",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_hello_world",
+            "value": 567325,
+            "range": "± 4284",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_hello_world2",
+            "value": 6077510,
+            "range": "± 23432",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_fib",
+            "value": 38990021,
+            "range": "± 196496",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_loopity",
+            "value": 5212186,
+            "range": "± 30430",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fib_15",
+            "value": 228399,
+            "range": "± 976",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fib_20",
+            "value": 2565342,
+            "range": "± 58145",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "external_functions",
+            "value": 379,
             "range": "± 1",
             "unit": "ns/iter"
           }
