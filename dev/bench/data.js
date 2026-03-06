@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769131891019,
+  "lastUpdate": 1772762414551,
   "repoUrl": "https://github.com/age-rs/rune",
   "entries": {
     "Benchmark": [
@@ -4538,6 +4538,118 @@ window.BENCHMARK_DATA = {
           {
             "name": "external_functions",
             "value": 408,
+            "range": "± 3",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "John-John Tedro",
+            "username": "udoprog",
+            "email": "johnjohn.tedro@gmail.com"
+          },
+          "id": "f7a4ab021a5fa8de8cf16001030d5c54c6fb2088",
+          "message": "build(deps): bump @tootallnate/once and @vscode/test-electron\n\nRemoves [@tootallnate/once](https://github.com/TooTallNate/once). It's no longer used after updating ancestor dependency [@vscode/test-electron](https://github.com/Microsoft/vscode-test). These dependencies need to be updated together.\n\n\nRemoves `@tootallnate/once`\n\nUpdates `@vscode/test-electron` from 2.1.5 to 2.5.2\n- [Changelog](https://github.com/microsoft/vscode-test/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/Microsoft/vscode-test/compare/v2.1.5...v2.5.2)\n\n---\nupdated-dependencies:\n- dependency-name: \"@tootallnate/once\"\n  dependency-version: \n  dependency-type: indirect\n- dependency-name: \"@vscode/test-electron\"\n  dependency-version: 2.5.2\n  dependency-type: direct:development\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-03-04T21:39:12Z",
+          "url": "https://github.com/age-rs/rune/commit/f7a4ab021a5fa8de8cf16001030d5c54c6fb2088"
+        },
+        "date": 1772762413550,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "primes/rhai",
+            "value": 10770846,
+            "range": "± 506777",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "primes/rune",
+            "value": 4125892,
+            "range": "± 44660",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "eval/rhai",
+            "value": 1690,
+            "range": "± 14",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "eval/rune",
+            "value": 1376,
+            "range": "± 12",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_1a",
+            "value": 156545,
+            "range": "± 2197",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_1b",
+            "value": 943266,
+            "range": "± 7727",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_11a",
+            "value": 229779304,
+            "range": "± 1393539",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_19b",
+            "value": 217176142,
+            "range": "± 2144749",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_hello_world",
+            "value": 492521,
+            "range": "± 2056",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_hello_world2",
+            "value": 5252819,
+            "range": "± 22678",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_fib",
+            "value": 27900677,
+            "range": "± 164413",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_loopity",
+            "value": 4520956,
+            "range": "± 34372",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fib_15",
+            "value": 237924,
+            "range": "± 1992",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fib_20",
+            "value": 2661030,
+            "range": "± 23901",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "external_functions",
+            "value": 337,
             "range": "± 3",
             "unit": "ns/iter"
           }
