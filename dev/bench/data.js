@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772762414551,
+  "lastUpdate": 1772848340504,
   "repoUrl": "https://github.com/age-rs/rune",
   "entries": {
     "Benchmark": [
@@ -4651,6 +4651,118 @@ window.BENCHMARK_DATA = {
             "name": "external_functions",
             "value": 337,
             "range": "± 3",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "John-John Tedro",
+            "username": "udoprog",
+            "email": "johnjohn.tedro@gmail.com"
+          },
+          "id": "5d5ecdc417a5014d50b1ab2447be6986af38c5dd",
+          "message": "build(deps): bump minimatch from 3.1.2 to 3.1.5 in /editors/code\n\nBumps [minimatch](https://github.com/isaacs/minimatch) from 3.1.2 to 3.1.5.\n- [Changelog](https://github.com/isaacs/minimatch/blob/main/changelog.md)\n- [Commits](https://github.com/isaacs/minimatch/compare/v3.1.2...v3.1.5)\n\n---\nupdated-dependencies:\n- dependency-name: minimatch\n  dependency-version: 3.1.5\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "timestamp": "2026-03-05T05:12:33Z",
+          "url": "https://github.com/age-rs/rune/commit/5d5ecdc417a5014d50b1ab2447be6986af38c5dd"
+        },
+        "date": 1772848339818,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "primes/rhai",
+            "value": 11580015,
+            "range": "± 91961",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "primes/rune",
+            "value": 4041036,
+            "range": "± 159951",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "eval/rhai",
+            "value": 1633,
+            "range": "± 63",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "eval/rune",
+            "value": 1342,
+            "range": "± 22",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_1a",
+            "value": 150236,
+            "range": "± 1933",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_1b",
+            "value": 923297,
+            "range": "± 12617",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_11a",
+            "value": 232432999,
+            "range": "± 2033030",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_19b",
+            "value": 206165538,
+            "range": "± 801686",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_hello_world",
+            "value": 487393,
+            "range": "± 2230",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_hello_world2",
+            "value": 5291457,
+            "range": "± 220034",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_fib",
+            "value": 27963786,
+            "range": "± 224469",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_loopity",
+            "value": 4459811,
+            "range": "± 19171",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fib_15",
+            "value": 241081,
+            "range": "± 2049",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fib_20",
+            "value": 2687105,
+            "range": "± 13781",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "external_functions",
+            "value": 345,
+            "range": "± 5",
             "unit": "ns/iter"
           }
         ]
