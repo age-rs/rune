@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786499144918,
+  "lastUpdate": 1787447589926,
   "repoUrl": "https://github.com/age-rs/rune",
   "entries": {
     "Benchmark": [
@@ -5546,6 +5546,130 @@ window.BENCHMARK_DATA = {
           {
             "name": "external_functions",
             "value": 353,
+            "range": "± 2",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "John-John Tedro",
+            "username": "udoprog",
+            "email": "udoprog@tedro.se"
+          },
+          "committer": {
+            "name": "John-John Tedro",
+            "username": "udoprog",
+            "email": "johnjohn.tedro@gmail.com"
+          },
+          "id": "4ef0599afabf2f0f9932cb5af4b1750729759765",
+          "message": "Run under miri only what miri can run",
+          "timestamp": "2026-08-21T08:36:39Z",
+          "url": "https://github.com/age-rs/rune/commit/4ef0599afabf2f0f9932cb5af4b1750729759765"
+        },
+        "date": 1787447589341,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "primes/rhai",
+            "value": 11111367,
+            "range": "± 455039",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "primes/rune",
+            "value": 6493995,
+            "range": "± 61125",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "eval/rhai",
+            "value": 1567,
+            "range": "± 50",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "eval/rune",
+            "value": 1869,
+            "range": "± 19",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_1a",
+            "value": 241449,
+            "range": "± 8765",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_1b",
+            "value": 1573547,
+            "range": "± 35545",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_11a",
+            "value": 374381162,
+            "range": "± 1310477",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "aoc_2020_19b",
+            "value": 323363654,
+            "range": "± 2350466",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "sync_call",
+            "value": 15709423,
+            "range": "± 47217",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "await_call",
+            "value": 35324605,
+            "range": "± 252030",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_hello_world",
+            "value": 844080,
+            "range": "± 11925",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_hello_world2",
+            "value": 9150944,
+            "range": "± 87150",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_fib",
+            "value": 48235478,
+            "range": "± 312560",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "brainfuck_loopity",
+            "value": 7750402,
+            "range": "± 36411",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fib_15",
+            "value": 322785,
+            "range": "± 5745",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "fib_20",
+            "value": 3582453,
+            "range": "± 23689",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "external_functions",
+            "value": 551,
             "range": "± 2",
             "unit": "ns/iter"
           }
