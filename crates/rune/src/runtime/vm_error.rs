@@ -420,6 +420,13 @@ impl From<VmError> for RuntimeError {
     }
 }
 
+impl From<Infallible> for RuntimeError {
+    #[inline]
+    fn from(error: Infallible) -> Self {
+        match error {}
+    }
+}
+
 from_new! {
     RuntimeError {
         alloc::Error,
@@ -427,7 +434,6 @@ from_new! {
         AccessError,
         AnySequenceTakeError,
         AnyObjError,
-        Infallible,
         StackError,
         VmErrorKind,
         ExpectedType,
